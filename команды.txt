@@ -1,0 +1,17 @@
+git branch - смотрим какие есть ветки. Ветка со звездочкой является текущей.
+git branch develop - создаем новую ветку под названием develop 
+git checkout develop - переход в ветку develop
+git checkout 1619a53 - переход к коммиту 1619a53
+git log - смотрим историю коммитов
+git commit -m "Новая ветка" - добавление коммита с названием Новая ветка
+git checkout -b about - создаем ветку about и сразу в нее переходим
+git add в Git добавляет новые или изменённые файлы из рабочего каталога в промежуточную область
+git add . индексирует сразу все изменённые файлы и папки в директории, где находится пользователь
+git add :/ добавляет в индекс все файлы независимо от того, в какой директории находится пользователь
+git log --graph --abbrev-commit --decorate --all --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim 
+white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)' - выводит коммиты более подробнее
+git branch -m myfix - меняем имя текущей ветки на myfix
+git checkout -b new-branch - новая ветка с текущего коммита с названием new-branch
+git push --set-upstream origin develop - запушить ветку develop
+git branch -d new-branch - удалить ветку new-branch
+git push - запушить текущую ветку
